@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ea312ab-4706-4487-9470-058e5c119d69" name="Default Changelist" comment="" />
+    <list default="true" id="7ea312ab-4706-4487-9470-058e5c119d69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/common/dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/shiro/ShiroUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/shiro/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/shiro/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/shiro/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xzh/vueblog/shiro/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/common/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/common/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/shiro/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xzh/vueblog/shiro/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vueblog.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +69,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RunManager" selected="Spring Boot.VueblogApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -102,6 +123,8 @@
       <workItem from="1592832786011" duration="307000" />
       <workItem from="1592833133048" duration="3243000" />
       <workItem from="1592836428604" duration="2595000" />
+      <workItem from="1593259364910" duration="666000" />
+      <workItem from="1593262146295" duration="5850000" />
     </task>
     <servers />
   </component>
@@ -109,41 +132,102 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Notifications" timestamp="1593259385564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1593259385564" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1593264142598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593264142598" />
+    <state x="179" y="0" key="CommitChangelistDialog2" timestamp="1592839164888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="179" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592839164888" />
     <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1592839061159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592839061159" />
-    <state width="1322" height="408" key="GridCell.Tab.0.bottom" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.0.bottom" timestamp="1593268231758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.0.center" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593268231758" />
+    <state width="1322" height="385" key="GridCell.Tab.0.center" timestamp="1593268231758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.0.left" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593268231758" />
+    <state width="1322" height="385" key="GridCell.Tab.0.left" timestamp="1593268231758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.0.right" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593268231758" />
+    <state width="1322" height="385" key="GridCell.Tab.0.right" timestamp="1593268231758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.1.bottom" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593268231758" />
+    <state width="1322" height="385" key="GridCell.Tab.1.bottom" timestamp="1593268231759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.1.center" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593268231759" />
+    <state width="1322" height="385" key="GridCell.Tab.1.center" timestamp="1593268231758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.1.left" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593268231758" />
+    <state width="1322" height="385" key="GridCell.Tab.1.left" timestamp="1593268231758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
-    <state width="1322" height="408" key="GridCell.Tab.1.right" timestamp="1592836382801">
+    <state width="1322" height="385" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593268231758" />
+    <state width="1322" height="385" key="GridCell.Tab.1.right" timestamp="1593268231759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="408" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592836382801" />
+    <state width="1322" height="385" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593268231759" />
+    <state width="1322" height="385" key="GridCell.Tab.2.bottom" timestamp="1593268231759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593268231759" />
+    <state width="1322" height="385" key="GridCell.Tab.2.center" timestamp="1593268231759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1593268231759" />
+    <state width="1322" height="385" key="GridCell.Tab.2.left" timestamp="1593268231759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1593268231759" />
+    <state width="1322" height="385" key="GridCell.Tab.2.right" timestamp="1593268231759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="385" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1593268231759" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1593266001539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593266001539" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1592839183692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592839183692" />
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593264086850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1593264086850" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/AccountController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xzh/vueblog/shiro/JwtUtils.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xzh/vueblog/controller/AccountController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

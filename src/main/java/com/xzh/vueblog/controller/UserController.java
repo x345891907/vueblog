@@ -1,13 +1,11 @@
 package com.xzh.vueblog.controller;
 
 
+import com.xzh.vueblog.entity.User;
 import com.xzh.vueblog.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * <p>
@@ -26,5 +24,10 @@ public class UserController {
     @GetMapping("/{id}")
     public Object test(@PathVariable("id") Long id) {
         return userService.getById(id);
+    }
+
+    @PostMapping("/save")
+    public Object testUser(@Validated @RequestBody User user) {
+        return user.toString();
     }
 }

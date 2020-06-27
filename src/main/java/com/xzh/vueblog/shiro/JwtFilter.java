@@ -44,7 +44,7 @@ public class JwtFilter extends AuthenticatingFilter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         String token = request.getHeader("Authorization");
         if(StringUtils.isEmpty(token)) {
-            return true;
+            return true;                                                                                                    
         } else {
             // 判断是否已过期
             Claims claim = jwtUtils.getClaimByToken(token);
